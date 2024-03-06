@@ -17,7 +17,7 @@ if file:
     checkModel = load_learner('animals_check_model.pkl')
     
     pCheck, pidCheck, probCheck = checkModel.predict(img)
-    if pCheck == 'Bird_Insect_Carnivore_Fish_Reptile' :
+    if pCheck == 'Bird_Insect_Carnivore_Fish_Reptile' and probCheck[pidCheck]*100 > 80:
     
         # Model
         model = load_learner('animals_model.pkl')
@@ -48,3 +48,8 @@ if file:
             yaxis=dict(tickfont=dict(size=14, color='#FFFFFF'))
         )    
         st.plotly_chart(fig)
+
+    else:
+        st.info("This image is not animal")
+        st.button('Click me')
+        
