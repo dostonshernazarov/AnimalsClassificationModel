@@ -51,5 +51,6 @@ if file:
 
     else:
         st.info("This image is not animal")
-        st.button('Click me')
+        if st.button('Incorrect predict!') :
+            st.success("Sorry for mistake :)")
         
