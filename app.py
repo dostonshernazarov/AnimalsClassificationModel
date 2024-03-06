@@ -14,6 +14,12 @@ if file:
     # PIL convert 
     img = PILImage.create(file)
 
+    checkModel = load_learner('animals_check_model.pkl')
+    
+    pCheck, pidCheck, probCheck = checkModel.predict(img)
+    st.success(f"Predict: {pCheck}")
+    st.info(f"Probability: {probCheck[pidCheck]*100:.1f}%")
+    
     # Model
     model = load_learner('animals_model.pkl')
 
