@@ -1,3 +1,0 @@
-# AnimalsClassificationModel
-
-In **Master** branch
