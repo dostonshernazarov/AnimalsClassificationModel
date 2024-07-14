@@ -19,7 +19,7 @@ Make sure you have the following installed:
 ### Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/AnimalsClassificationModel.git
+    git clone https://github.com/dostonshernazarov/AnimalsClassificationModel.git
     git checkout main
     cd AnimalsClassificationModel
     ```
