@@ -20,7 +20,6 @@ Make sure you have the following installed:
 1. Clone the repository:
     ```bash
     git clone https://github.com/dostonshernazarov/AnimalsClassificationModel.git
-    git checkout main
     cd AnimalsClassificationModel
     ```
 
@@ -58,5 +57,3 @@ All the dependencies required for this project are listed in the `requirements.t
 To install the dependencies, run:
 ```bash
 pip install -r requirements.txt
-
-
