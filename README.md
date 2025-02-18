@@ -1,4 +1,4 @@
-# AnimalsClassificationModel
+# Animals Classification Model
 
 ## Overview
 AnimalsClassificationModel is a Python-based application that allows users to classify animals by uploading a photo. The model leverages deep learning techniques, specifically the ResNet34 architecture, to accurately identify different animal species. This project is built using a variety of libraries including numpy, pandas, streamlit, plotly, and fastai.
